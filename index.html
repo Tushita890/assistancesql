@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gemini Chatbot</title>
+</head>
+<body>
+<h2>Gemini Chatbot</h2>
+
+<form method="POST">
+    <input type="text" name="prompt" placeholder="Ask something..." required>
+    <button type="submit">Send</button>
+</form>
+
+{% if response %}
+    <p><strong>Bot:</strong> {{ response }}</p>
+{% endif %}
+
+</body>
+</html>
