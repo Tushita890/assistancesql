@@ -3,7 +3,7 @@ import google.generativeai as genai
 import requests
 
 # Replace with your actual API key
-genai.configure(api_key="AIzaSyAQ0Ri8QJAtFaUNRUUWwaFBkxZXkaolQiI")
+genai.configure(api_key="")
 
 # Choose a Gemini model
 model = genai.GenerativeModel("gemini-3.1-flash-lite-preview")
